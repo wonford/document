@@ -1,0 +1,42 @@
+{"documents": [
+  {"name": "d1",
+    "frames":  [
+    {"name": "f1",
+      "cols": 1,
+      "rows": 1,
+      "sequences":  [
+        {"name": "s1_1",
+          "paragraphs": [
+          {"name": "p1_1_1",
+            "runs":  [
+              {"content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "inline": ""},
+              {"content":" Phasellus sit amet maximus mi, sit amet iaculis lorem.", "inline": "bold"},
+              {"content":" Nullam a mauris ullamcorper, lacinia mauris in, blandit mauris. Mauris dictum lacus non scelerisque rhoncus. Vestibulum posuere diam eu est cursus, at tempor tortor mattis.", "inline": ""},
+              {"content":" Phasellus id feugiat lorem.", "inline": "italic"},
+              {"content":" Suspendisse vitae enim congue, cursus magna eget, porta lacus. Praesent suscipit urna in augue aliquet scelerisque. Quisque ut lorem finibus erat porta imperdiet. Morbi nec lectus eu libero feugiat eleifend. Integer sapien orci, dignissim nec risus et, rutrum suscipit lectus. Quisque nec neque faucibus, ultricies tortor eu, placerat velit.", "inline": ""}
+            ]}
+        ]}
+    ]},
+    {"name": "f2",
+      "cols": 2,
+      "rows": 1,
+      "sequences":  [
+        {"name": "s2_1",
+          "paragraphs": [
+          {"name": "p2_1_1",
+            "runs": [
+              {"content": "Foo!", "inline": ""}
+            ]}
+          ]
+        },
+        {"name": "s2_2",
+          "paragraphs": [
+          {"name": "p2_2_1",
+            "runs": [
+              {"content": "Bar!", "inline": ""}
+            ]}
+          ]
+        }]
+    }]
+  }]
+}
